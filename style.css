@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(221, 217, 217);
+}
+.navbar{
+    width: 100%;
+     padding: 0;
+     margin: 0;
+     background-color: white;
+ }
+ #logo-img{
+     width: 40px;
+     height: 40px;
+     margin-left: 90px;
+ }
+ .search-box{
+    width: fit-content;
+ }
+ .menu-icon{
+    width: 50%;
+    display: flex;
+
+    justify-items: center;
+   
+    padding-left: 200px;
+   }
+   .profile-icon{
+    border-radius: 50%;
+    width: 3rem; 
+    height:3rem;
+    border: none;
+   }
+    .nav-link{
+     justify-content: center;
+    }
+    .menu-text:hover{
+     color: black;
+ }
+ .main-body{
+    
+     background-color: rgb(221, 217, 217);
+    
+}
+ .row{
+    margin: 0;
+     padding: 0;
+     background-color: rgb(221, 217, 217);
+     width: 100%;
+ }
+ .card-container {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    gap: 5 rem; /* Space between cards */
+}
+.profile-image{
+   width: 5rem;
+   height: 5rem;
+   border-radius:50%;
+   margin-top: -3rem;
+   margin-left: 4rem;
+}
+.welcome-text{
+    font-weight: bold;
+    text-align: center;
+}
+.premium{
+    color: black; 
+    font-size: medium; 
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+   cursor: pointer;
+}
+.groups{
+    font-size:0. 02rem;
+
+}
+.icon-left{
+    width: 15px;
+    height: 15px;
+    width: 15px;
+    height: 15px;
+    margin-right: 0.2rem;
+}
+
+.status-head {
+    width: 100%;
+    display: flex;
+}
+.status-head img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ margin: 0.1rem;
+}
+#post{
+    height: 3rem;
+    width: 50rem;
+    border-radius: 30px;
+    margin-top: .1rem;
+    margin-left: .5rem;
+    border-color: grey;
+    border-width: 1px;
+    background-color: rgb(221, 217, 217);
+    padding-left: 0.1rem;
+}
+.post-btn{
+    margin-top: 1rem;
+padding: 01rem 0.8rem;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ }
+ .post-icon{
+    border: none;
+    background-color: transparent;
+ }
+
+.connection{
+    margin-top: 0.2rem;
+    margin-left: 0.1rem;
+}
+#close-btn{
+    border: none;
+    background-color: transparent;
+    float: right;
+
+}
+.post-ownwer{
+   
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    
+}
+.profile-pic{
+    width: 3rem;
+    height: 3rem;
+    
+    float: left;
+    }
+.user-info a{
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+.user-info p{
+    font-size: 0.8em;
+}
+.post-link{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 0.1rem;
+}
+.reaction{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.reaction-btn{
+    border: none;
+    background-color: transparent;
+    align-items: center;
+}
+.card-body li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+/*-----------Media Qeury for small screen-------*/
+@media screen only  and (max-width: 600px){
+    
+    div.left-section{
+        display: block;
+    }
+    .right-section{
+        display: none;
+    }
+}
